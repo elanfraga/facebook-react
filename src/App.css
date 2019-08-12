@@ -14,4 +14,30 @@ body,
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f2f2f2;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.content {
+  max-width: 1170px;
+  min-width: 980px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header {
+  background: #4a90e2;
+  display: flex;
+  justify-content: center;
+  height: 64px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  color: #fff;
+
+  font-size: 14px;
 }
