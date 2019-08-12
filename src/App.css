@@ -38,6 +38,14 @@ header nav {
   align-items: center;
   height: 64px;
   color: #fff;
-
   font-size: 14px;
+}
+
+header nav div {
+  display: flex;
+  align-items: center;
+}
+
+header nav div .acount {
+  margin-left: 5px;
 }

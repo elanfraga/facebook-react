@@ -8,7 +8,7 @@ function Header() {
         <h1>facebook</h1>
         <div>
           <span>Meu perfil</span>
-          <FaUserAlt color="white" size={15} className="acount" />
+          <FaUserAlt color="white" size={20} className="acount" />
         </div>
       </nav>
     </header>
