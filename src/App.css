@@ -49,3 +49,31 @@ header nav div {
 header nav div .acount {
   margin-left: 5px;
 }
+
+.postlist {
+  width: 700px;
+  margin: 20px auto 0;
+}
+
+.post {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.post .post-header {
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 20px 20px 20px;
+}
+
+.post .post-header .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.post img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
