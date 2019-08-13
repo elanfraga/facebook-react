@@ -18,13 +18,6 @@ body {
   -webkit-font-smoothing: antialiased !important;
 }
 
-.content {
-  /* max-width: 1170px;
-  min-width: 980px; */
-  margin: 0 auto;
-  padding: 0 50px;
-}
-
 header {
   background: #4a90e2;
   display: flex;
@@ -40,6 +33,7 @@ header nav {
   color: #fff;
   font-size: 14px;
   flex: 1;
+  margin: 0 50px 0 50px;
 }
 
 header nav div {
@@ -59,6 +53,7 @@ header nav div .acount {
 .post {
   background: #fff;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .post img {

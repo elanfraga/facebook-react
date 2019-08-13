@@ -4,7 +4,7 @@ import { FaUserAlt } from "react-icons/fa";
 function Header() {
   return (
     <header>
-      <nav className="content">
+      <nav>
         <h1>facebook</h1>
         <div>
           <span>Meu perfil</span>

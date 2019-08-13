@@ -1,5 +1,42 @@
 import React from "react";
 
-function PostItem() {
-  return <div className="post">posts</div>;
+function PostHeader({ author, date }) {
+  return (
+    <div className="post-header">
+      <img src={author.avatar} className="avatar" />
+      <div className="info">
+        <strong>{author.name}</strong>
+        <span>{date}</span>
+      </div>
+    </div>
+  );
 }
+
+function PostComments({ comments }) {
+  return (
+    <div className="post-comments">
+      <div className="divider" />
+      {comments.map(comment => (
+        <div key={comment.id} className="comment">
+          <img src={comment.author.avatar} className="avatar" />
+          <p>
+            <span>{comment.author.name}</span>
+            {comment.content}
+          </p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function PostItem({ author, date, content, comments }) {
+  return (
+    <div className="post">
+      <PostHeader author={author} date={date} />
+      <p className="post-content">{content}</p>
+      <PostComments comments={comments} />
+    </div>
+  );
+}
+
+export default PostItem;
