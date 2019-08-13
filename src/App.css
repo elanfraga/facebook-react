@@ -9,6 +9,7 @@ html,
 body,
 #root {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -20,8 +21,6 @@ body {
 
 header {
   background: #4a90e2;
-  display: flex;
-  justify-content: center;
   height: 64px;
 }
 
@@ -33,7 +32,7 @@ header nav {
   color: #fff;
   font-size: 14px;
   flex: 1;
-  margin: 0 50px 0 50px;
+  padding: 0 50px 0 50px;
 }
 
 header nav div {
@@ -54,6 +53,7 @@ header nav div .acount {
   background: #fff;
   border-radius: 8px;
   margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .post img {
