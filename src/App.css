@@ -60,20 +60,63 @@ header nav div .acount {
   border-radius: 8px;
 }
 
+.post img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
 .post .post-header {
   display: flex;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   padding: 20px 20px 20px 20px;
 }
 
 .post .post-header .info {
   display: flex;
   flex-direction: column;
-  margin-left: 8px;
+  justify-content: center;
+  margin-left: 10px;
+  font-size: 11px;
+  color: #9a9a9a;
+  line-height: 0px;
 }
 
-.post img {
-  height: 32px;
-  width: 32px;
-  border-radius: 50%;
+.post .post-header .info strong {
+  font-size: 14px;
+  color: #4a4a4a;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.post .post-content {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.post .post-comments .divider {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+  margin: 20px 20px 0 20px;
+}
+
+.post .post-comments .comment {
+  display: flex;
+  font-size: 13px;
+  padding: 20px 20px 20px 20px;
+}
+
+.post .post-comments .comment p {
+  margin-left: 10px;
+  color: #4a4a4a;
+  background: #eeeeee;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.post .post-comments .comment p span {
+  margin-right: 5px;
+  font-weight: bold;
 }
